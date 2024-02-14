@@ -7,20 +7,27 @@ import {HttpClientModule} from "@angular/common/http";
 import { VerbsCardComponent } from './common/verbs-card/verbs-card.component';
 import { SearchComponent } from './common/search/search.component';
 import {FormsModule} from "@angular/forms";
+import {SustantivosCardComponent} from "./common/sustantivos-card/sustantivos-card.component";
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
     declarations: [
         AppComponent,
         VerbsCardComponent,
-        SearchComponent
+        SearchComponent,
+        SustantivosCardComponent,
     ],
     imports: [
         BrowserModule,
         AppRoutingModule,
         HttpClientModule,
-        FormsModule
+        FormsModule,
+        MatCheckboxModule,
     ],
-    providers: [],
+    providers: [
+    provideAnimationsAsync()
+  ],
     bootstrap: [AppComponent]
 })
 export class AppModule {

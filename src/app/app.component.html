@@ -1,31 +1,36 @@
-<search
-    [verbos]="verbs"
-></search>
+<header class="top-header flex flex-column">
+    <search
+        [verbos]="verbs"
+        [sustantivos]="sustantivos"
+    ></search>
+    <div class="tab-container elevation-2">
+        <div class="tab" [class.active]="activeTab == 'verbos'" (click)="activeTab = 'verbos'">
+            <div class="tab-content">
+                Verbos
+            </div>
+        </div>
+        <div class="tab" [class.active]="activeTab == 'sustantivos'" (click)="activeTab = 'sustantivos'">
+            <div class="tab-content">
+                Sustantivos
+            </div>
+        </div>
+        <div class="tab" [class.active]="activeTab == 'adjetivos'" (click)="activeTab = 'adjetivos'">
+            <div class="tab-content">
+                Adjetivos
+            </div>
+        </div>
+    </div>
+</header>
 
-<div class="tab-container">
-    <div class="tab" [class.active]="activeTab == 'verbos'" (click)="activeTab = 'verbos'">
-        <div class="tab-content">
-            Verbos
-        </div>
-    </div>
-    <div class="tab" [class.active]="activeTab == 'articulos'" (click)="activeTab = 'articulos'">
-        <div class="tab-content">
-            Articulos
-        </div>
-    </div>
-    <div class="tab" [class.active]="activeTab == 'adjetivos'" (click)="activeTab = 'adjetivos'">
-        <div class="tab-content">
-            Adjetivos
-        </div>
-    </div>
-</div>
-<ng-container *ngIf="activeTab == 'verbos'">
-    <verbs-card [verb]="verb" *ngFor="let verb of verbs"></verbs-card>
-</ng-container>
-<ng-container *ngIf="activeTab == 'articulos'">
-    <verbs-card [verb]="verb" *ngFor="let verb of verbs"></verbs-card>
-</ng-container>
-<ng-container *ngIf="activeTab == 'adjetivos'">
-    <verbs-card [verb]="verb" *ngFor="let verb of verbs"></verbs-card>
-</ng-container>
+<main class="flex flex-column">
+    <ng-container *ngIf="activeTab == 'verbos'">
+        <verbs-card [verb]="verb" *ngFor="let verb of verbs"></verbs-card>
+    </ng-container>
+    <ng-container *ngIf="activeTab == 'sustantivos'">
+        <sustantivos-card [sustantivo]="sustantivo" *ngFor="let sustantivo of sustantivos"></sustantivos-card>
+    </ng-container>
+    <ng-container *ngIf="activeTab == 'adjetivos'">
+        <verbs-card [verb]="verb" *ngFor="let verb of verbs"></verbs-card>
+    </ng-container>
+</main>
 

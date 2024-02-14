@@ -1,0 +1,674 @@
+[
+    {
+        "kana": "きょうし",
+        "kanji": "教師",
+        "romanji": "Kyōshi",
+        "translation": "Maestro, profesor",
+        "type": "Profesión"
+    },
+    {
+        "kana": "いしゃ",
+        "kanji": "医者",
+        "romanji": "Isha",
+        "translation": "Doctor",
+        "type": "Profesión"
+    },
+    {
+        "kana": "けいさつかん",
+        "kanji": "警察官",
+        "romanji": "Keisatsukan",
+        "translation": "Policía",
+        "type": "Profesión"
+    },
+    {
+        "kana": "かんごし",
+        "kanji": "看護師",
+        "romanji": "Kangoshi",
+        "translation": "Enfermero",
+        "type": "Profesión"
+    },
+    {
+        "kana": "しょうぼうし",
+        "kanji": "消防士",
+        "romanji": "Shōbōshi",
+        "translation": "Bombero",
+        "type": "Profesión"
+    },
+    {
+        "kana": "えいがか",
+        "kanji": "映画家",
+        "romanji": "Eigaka",
+        "translation": "Director de cine",
+        "type": "Profesión"
+    },
+    {
+        "kana": "かしゅ",
+        "kanji": "歌手",
+        "romanji": "Kashu",
+        "translation": "Cantante",
+        "type": "Profesión"
+    },
+    {
+        "kana": "えんげいしゃ",
+        "kanji": "演芸者",
+        "romanji": "Engiesha",
+        "translation": "Artista",
+        "type": "Profesión"
+    },
+    {
+        "kana": "せんせい",
+        "kanji": "先生",
+        "romanji": "Sensei",
+        "translation": "Maestro",
+        "type": "Profesión"
+    },
+    {
+        "kana": "がくせい",
+        "kanji": "学生",
+        "romanji": "Gakusei",
+        "translation": "Estudiante",
+        "type": "Profesión"
+    },
+    {
+        "kana": "ぎんこいん",
+        "kanji": "銀行員",
+        "romanji": "Ginkōin",
+        "translation": "Empleado de banco",
+        "type": "Profesión"
+    },
+    {
+        "kana": "だいがく",
+        "kanji": "大学",
+        "romanji": "Daigaku",
+        "translation": "Universidad",
+        "type": "Lugar"
+    },
+    {
+        "kana": "びょういん",
+        "kanji": "病院",
+        "romanji": "Byōin",
+        "translation": "Hospital",
+        "type": "Lugar"
+    },
+    {
+        "kana": "としょかん",
+        "kanji": "図書館",
+        "romanji": "Toshokan",
+        "translation": "Biblioteca",
+        "type": "Lugar"
+    },
+    {
+        "kana": "ぎんこう",
+        "kanji": "銀行",
+        "romanji": "Ginkō",
+        "translation": "Banco",
+        "type": "Lugar"
+    },
+    {
+        "kana": "びじゅつかん",
+        "kanji": "美術館",
+        "romanji": "Bijutsukan",
+        "translation": "Museo de arte",
+        "type": "Lugar"
+    },
+    {
+        "kana": "えいがかん",
+        "kanji": "映画館",
+        "romanji": "Eigakan",
+        "translation": "Cine",
+        "type": "Lugar"
+    },
+    {
+        "kana": "kaishain",
+        "kanji": "会社員",
+        "romanji": "Kaishain",
+        "translation": "Empleado de empresa",
+        "type": "Profesión"
+    },
+    {
+        "kana": "こうむいん",
+        "kanji": "公務員",
+        "romanji": "Kōmuin",
+        "translation": "Funcionario",
+        "type": "Profesión"
+    },
+    {
+        "kana": "えきいん",
+        "kanji": "駅員",
+        "romanji": "Ekiin",
+        "translation": "Empleado de estación",
+        "type": "Profesión"
+    },
+    {
+        "kana": "ゆびんきょういん",
+        "kanji": "郵便局員",
+        "romanji": "Yūbinkyokuin",
+        "translation": "Empleado de correos",
+        "type": "Profesión"
+    },
+    {
+        "kana": "ゆびんきょく",
+        "kanji": "郵便局",
+        "romanji": "Yūbinkyoku",
+        "translation": "Oficina de correos",
+        "type": "Lugar"
+    },
+    {
+        "kana": "てにいん",
+        "kanji": "店員",
+        "romanji": "Ten'in",
+        "translation": "Empleado de tienda",
+        "type": "Profesión"
+    },
+    {
+        "kana": "ちょうりし",
+        "kanji": "調理師",
+        "romanji": "Chōrishi",
+        "translation": "Cocinero",
+        "type": "Profesión"
+    },
+    {
+        "kana": "りようし",
+        "kanji": "理容師",
+        "romanji": "Riyōshi",
+        "translation": "Barbero",
+        "type": "Profesión"
+    },
+    {
+        "kana": "びようし",
+        "kanji": "美容師",
+        "romanji": "Biyōshi",
+        "translation": "Estilista",
+        "type": "Profesión"
+    },
+    {
+        "kana": "せいじか",
+        "kanji": "政治家",
+        "romanji": "Seijika",
+        "translation": "Político",
+        "type": "Profesión"
+    },
+    {
+        "kana": "がか",
+        "kanji": "画家",
+        "romanji": "Gaka",
+        "translation": "Pintor",
+        "type": "Profesión"
+    },
+    {
+        "kana": "ほん",
+        "kanji": "本",
+        "romanji": "Hon",
+        "translation": "Libro",
+        "type": "Objeto"
+    },
+    {
+        "kana": "じしょ",
+        "kanji": "辞書",
+        "romanji": "Jisho",
+        "translation": "Diccionario",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ざっし",
+        "kanji": "雑誌",
+        "romanji": "Zasshi",
+        "translation": "Revista",
+        "type": "Objeto"
+    },
+    {
+        "kana": "しんぶん",
+        "kanji": "新聞",
+        "romanji": "Shinbun",
+        "translation": "Periódico",
+        "type": "Objeto"
+    },
+    {
+        "kana": "てがみ",
+        "kanji": "手紙",
+        "romanji": "Tegami",
+        "translation": "Carta",
+        "type": "Objeto"
+    },
+    {
+        "kana": "はがき",
+        "kanji": "葉書",
+        "romanji": "Hagaki",
+        "translation": "Postal",
+        "type": "Objeto"
+    },
+    {
+        "kana": "えんぴつ",
+        "kanji": "鉛筆",
+        "romanji": "Enpitsu",
+        "translation": "Lápiz",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ボールペン",
+        "kanji": "",
+        "romanji": "Bōrupen",
+        "translation": "Bolígrafo",
+        "type": "Objeto"
+    },
+    {
+        "kana": "けしゴム",
+        "kanji": "消し",
+        "romanji": "Keshigomu",
+        "translation": "Borrador",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ノート",
+        "kanji": "",
+        "romanji": "Nōto",
+        "translation": "Cuaderno",
+        "type": "Objeto"
+    },
+    {
+        "kana": "かさ",
+        "kanji": "傘",
+        "romanji": "Kasa",
+        "translation": "Paraguas",
+        "type": "Objeto"
+    },
+    {
+        "kana": "かばん",
+        "kanji": "鞄",
+        "romanji": "Kaban",
+        "translation": "Bolso",
+        "type": "Objeto"
+    },
+    {
+        "kana": "くつ",
+        "kanji": "靴",
+        "romanji": "Kutsu",
+        "translation": "Zapatos",
+        "type": "Objeto"
+    },
+    {
+        "kana": "てちょう",
+        "kanji": "手帳",
+        "romanji": "Techō",
+        "translation": "Agenda",
+        "type": "Objeto"
+    },
+    {
+        "kana": "めいし",
+        "kanji": "名刺",
+        "romanji": "Meishi",
+        "translation": "Tarjeta de presentación",
+        "type": "Objeto"
+    },
+    {
+        "kana": "カッド",
+        "kanji": "",
+        "romanji": "Kaddo",
+        "translation": "Tarjeta",
+        "type": "Objeto"
+    },
+    {
+        "kana": "シャップペンシル",
+        "kanji": "",
+        "romanji": "Shappupenshiru",
+        "translation": "Portaminas",
+        "type": "Objeto"
+    },
+    {
+        "kana": "かぎ",
+        "kanji": "鍵",
+        "romanji": "Kagi",
+        "translation": "Llave",
+        "type": "Objeto"
+    },
+    {
+        "kana": "とけい",
+        "kanji": "時計",
+        "romanji": "Tokei",
+        "translation": "Reloj",
+        "type": "Objeto"
+    },
+    {
+        "kana": "テレビ",
+        "kanji": "",
+        "romanji": "Terebi",
+        "translation": "Televisión",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ラジオ",
+        "kanji": "",
+        "romanji": "Rajio",
+        "translation": "Radio",
+        "type": "Objeto"
+    },
+    {
+        "kana": "パソコン",
+        "kanji": "",
+        "romanji": "Pasokon",
+        "translation": "Computadora",
+        "type": "Objeto"
+    },
+    {
+        "kana": "でんわ",
+        "kanji": "電話",
+        "romanji": "Denwa",
+        "translation": "Teléfono",
+        "type": "Objeto"
+    },
+    {
+        "kana": "くるま",
+        "kanji": "車",
+        "romanji": "Kuruma",
+        "translation": "Auto",
+        "type": "Objeto"
+    },
+    {
+        "kana": "じてんしゃ",
+        "kanji": "自転車",
+        "romanji": "Jitensha",
+        "translation": "Bicicleta",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ひこうき",
+        "kanji": "飛行機",
+        "romanji": "Hikōki",
+        "translation": "Avión",
+        "type": "Objeto"
+    },
+    {
+        "kana": "でんしゃ",
+        "kanji": "電車",
+        "romanji": "Densha",
+        "translation": "Tren",
+        "type": "Objeto"
+    },
+    {
+        "kana": "べんごし",
+        "kanji": "弁護士",
+        "romanji": "Bengoshi",
+        "translation": "Abogado",
+        "type": "Profesión"
+    },
+    {
+        "kana": "カメラ",
+        "kanji": "",
+        "romanji": "Kamera",
+        "translation": "Cámara",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ツクエ",
+        "kanji": "",
+        "romanji": "Tsukue",
+        "translation": "Escritorio",
+        "type": "Objeto"
+    },
+    {
+        "kana": "いす",
+        "kanji": "椅子",
+        "romanji": "Isu",
+        "translation": "Silla",
+        "type": "Objeto"
+    },
+    {
+        "kana": "チョコレット",
+        "kanji": "",
+        "romanji": "Chokoretto",
+        "translation": "Chocolate",
+        "type": "Objeto"
+    },
+    {
+        "kana": "コーヒー",
+        "kanji": "",
+        "romanji": "Kōhī",
+        "translation": "Café",
+        "type": "Objeto"
+    },
+    {
+        "kana": "おちゃ",
+        "kanji": "お茶",
+        "romanji": "Ocha",
+        "translation": "Té",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ミルク",
+        "kanji": "",
+        "romanji": "Miruku",
+        "translation": "Leche",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ジュース",
+        "kanji": "",
+        "romanji": "Jūsu",
+        "translation": "Zumo",
+        "type": "Objeto"
+    },
+    {
+        "kana": "(お)みやげ",
+        "kanji": "(お)土産",
+        "romanji": "(O)miyage",
+        "translation": "Recuerdo",
+        "type": "Objeto"
+    },
+    {
+        "kana": "CD",
+        "kanji": "",
+        "romanji": "CD",
+        "translation": "CD",
+        "type": "Objeto"
+    },
+    {
+        "kana": "きょうしつ",
+        "kanji": "教室",
+        "romanji": "Kyōshitsu",
+        "translation": "Aula",
+        "type": "Lugar"
+    },
+    {
+        "kana": "じむしょう",
+        "kanji": "事務所",
+        "romanji": "Jimusho",
+        "translation": "Oficina",
+        "type": "Lugar"
+    },
+    {
+        "kana": "かいぎしつ",
+        "kanji": "会議室",
+        "romanji": "Kaigishitsu",
+        "translation": "Sala de reuniones",
+        "type": "Lugar"
+    },
+    {
+        "kana": "うけつけ",
+        "kanji": "受付",
+        "romanji": "Uketsuke",
+        "translation": "Recepción",
+        "type": "Lugar"
+    },
+    {
+        "kana": "しょくどう",
+        "kanji": "食堂",
+        "romanji": "Shokudō",
+        "translation": "Comedor",
+        "type": "Lugar"
+    },
+    {
+        "kana": "ロビー",
+        "kanji": "",
+        "romanji": "Robī",
+        "translation": "Vestíbulo",
+        "type": "Lugar"
+    },
+    {
+        "kana": "ヘヤ",
+        "kanji": "",
+        "romanji": "Heya",
+        "translation": "Habitación",
+        "type": "Lugar"
+    },
+    {
+        "kana": "トイレ (おてあらい)",
+        "kanji": "",
+        "romanji": "Toire (Otearai)",
+        "translation": "Baño",
+        "type": "Lugar"
+    },
+    {
+        "kana": "かいだん",
+        "kanji": "階段",
+        "romanji": "Kaidan",
+        "translation": "Escalera",
+        "type": "Lugar"
+    },
+    {
+        "kana": "エレベーター",
+        "kanji": "",
+        "romanji": "Erebētā",
+        "translation": "Ascensor",
+        "type": "Lugar"
+    },
+    {
+        "kana": "エスカレーター",
+        "kanji": "",
+        "romanji": "Esukarētā",
+        "translation": "Escalera mecánica",
+        "type": "Lugar"
+    },
+    {
+        "kana": "じどうはんばいき",
+        "kanji": "自動販売機",
+        "romanji": "Jidōhanbaiki",
+        "translation": "Máquina expendedora",
+        "type": "Lugar"
+    },
+    {
+        "kana": "(お)くに",
+        "kanji": "(お)国",
+        "romanji": "(O)kuni",
+        "translation": "País",
+        "type": "Lugar"
+    },
+    {
+        "kana": "かいしゃ",
+        "kanji": "会社",
+        "romanji": "Kaisha",
+        "translation": "Empresa",
+        "type": "Lugar"
+    },
+    {
+        "kana": "うち",
+        "kanji": "家",
+        "romanji": "Uchi",
+        "translation": "Casa",
+        "type": "Lugar"
+    },
+    {
+        "kana": "ネクタイ",
+        "kanji": "",
+        "romanji": "Nekutai",
+        "translation": "Corbata",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ワイン",
+        "kanji": "",
+        "romanji": "Wain",
+        "translation": "Vino",
+        "type": "Objeto"
+    },
+    {
+        "kana": "うりば",
+        "kanji": "売り場",
+        "romanji": "Uriba",
+        "translation": "Sección de ventas",
+        "type": "Lugar"
+    },
+    {
+        "kana": "ちか",
+        "kanji": "地下",
+        "romanji": "Chika",
+        "translation": "Sótano",
+        "type": "Lugar"
+    },
+    {
+        "kana": "レストラン",
+        "kanji": "",
+        "romanji": "Resutoran",
+        "translation": "Restaurante",
+        "type": "Lugar"
+    },
+    {
+        "kana": "おもちゃ",
+        "kanji": "",
+        "romanji": "Omocha",
+        "translation": "Juguete",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ふく",
+        "kanji": "服",
+        "romanji": "Fuku",
+        "translation": "Ropa",
+        "type": "Objeto"
+    },
+    {
+        "kana": "パン",
+        "kanji": "",
+        "romanji": "Pan",
+        "translation": "Pan",
+        "type": "Objeto"
+    },
+    {
+        "kana": "ちゅうしゃじょう",
+        "kanji": "駐車場",
+        "romanji": "Chūshajō",
+        "translation": "Estacionamiento",
+        "type": "Lugar"
+    },
+    {
+        "kana": "ビル",
+        "kanji": "",
+        "romanji": "Biru",
+        "translation": "Edificio",
+        "type": "Lugar"
+    },
+    {
+        "kana": "ビール",
+        "kanji": "",
+        "romanji": "Bīru",
+        "translation": "Cerveza",
+        "type": "Objeto"
+    },
+    {
+        "kana": "デパット",
+        "kanji": "",
+        "romanji": "Depatto",
+        "translation": "Grandes almacenes",
+        "type": "Lugar"
+    },
+    {
+        "kana": "としょかん",
+        "kanji": "図書館",
+        "romanji": "Toshokan",
+        "translation": "Biblioteca",
+        "type": "Lugar"
+    },
+    {
+        "kana": "びじゅつかん",
+        "kanji": "美術館",
+        "romanji": "Bijutsukan",
+        "translation": "Museo de arte",
+        "type": "Lugar"
+    },
+    {
+        "kana": "えいがかん",
+        "kanji": "映画館",
+        "romanji": "Eigakan",
+        "translation": "Cine",
+        "type": "Lugar"
+    }
+]

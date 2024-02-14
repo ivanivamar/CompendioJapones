@@ -7,16 +7,26 @@ import {Component, Input} from '@angular/core';
 })
 export class SearchComponent {
     @Input() verbos: any;
-    @Input() articulos: any;
+    @Input() sustantivos: any;
     @Input() adjetivos: any;
 
     search = '';
-    filters: string[] = ['verbos', 'adjetivos', 'articulos'];
+    filters: any = {
+        verbos: true,
+        adjetivos: true,
+        sustantivos: true,
+        sustantivosTypes: {
+            Lugar: true,
+            Objeto: true,
+            Profesión: true,
+        }
+    }
     active = false;
     searchResults: any[] = [];
     hasVerbs = false;
     hasAdjetivos = false;
-    hasArticulos = false;
+    hasSustantivos = false;
+    showFilters = false;
 
     constructor() {
     }
@@ -25,9 +35,9 @@ export class SearchComponent {
         this.searchResults = [];
         this.hasVerbs = false;
         this.hasAdjetivos = false;
-        this.hasArticulos = false;
+        this.hasSustantivos = false;
         if (this.search.trim().length > 0) {
-            if (this.filters.includes('verbos')) {
+            if (this.filters.verbos) {
                 this.verbos.forEach((verbo: any) => {
                     if (
                         verbo.romanji.toLowerCase().includes(this.search.toLowerCase()) ||
@@ -41,17 +51,23 @@ export class SearchComponent {
                     }
                 });
             }
-            /*if (this.filters.includes('articulos')) {
-                this.articulos.forEach((articulo: any) => {
-                    if (articulo.romanji.includes(this.search) || articulo.translation.includes(this.search) || articulo.kana.includes(this.search)) {
+            if (this.filters.sustantivos) {
+                this.sustantivos.forEach((sustantivo: any) => {
+                    console.log(sustantivo.kana);
+                    if (
+                        (sustantivo.romanji.toLowerCase().includes(this.search.toLowerCase()) ||
+                        sustantivo.translation.toLowerCase().includes(this.search.toLowerCase()) ||
+                        sustantivo.kana.toLowerCase().includes(this.search.toLowerCase())) &&
+                        this.filters.sustantivosTypes[sustantivo.type]
+                    ) {
                         this.searchResults.push({
-                            type: 'articulo',
-                            data: articulo
+                            type: 'sustantivo',
+                            data: sustantivo
                         });
-                        this.hasArticulos = true;
+                        this.hasSustantivos = true;
                     }
                 });
-            }*/
+            }
         }
     }
 
@@ -60,6 +76,6 @@ export class SearchComponent {
         this.searchResults = [];
         this.hasVerbs = false;
         this.hasAdjetivos = false;
-        this.hasArticulos = false;
+        this.hasSustantivos = false;
     }
 }

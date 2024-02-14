@@ -1,5 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, HostListener, Inject, OnDestroy, OnInit} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {DOCUMENT} from "@angular/common";
 
 @Component({
     selector: 'app-root',
@@ -10,10 +11,10 @@ import {HttpClient} from "@angular/common/http";
 export class AppComponent implements OnInit {
     title = 'Compendio Japones';
 
-    private URL = '../assets/verbos.json';
     verbs: any;
-
+    sustantivos: any;
     activeTab = 'verbos';
+    currentPosition = window.pageYOffset;
 
     constructor(
         private http: HttpClient
@@ -21,9 +22,11 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.http.get(this.URL).subscribe(data => {
+        this.http.get('../assets/verbos.json').subscribe(data => {
             this.verbs = data;
-            console.log(this.verbs);
+        });
+        this.http.get('../assets/sustantivos.json').subscribe(data => {
+            this.sustantivos = data;
         });
     }
 }

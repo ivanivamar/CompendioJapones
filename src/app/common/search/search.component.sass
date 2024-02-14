@@ -2,13 +2,14 @@
 
 .searchbar
     display: flex
-    align-items: center
+    flex-direction: column
     margin: 16px
     border-radius: 25px 25px 25px 25px
     padding: 8px 16px
     background-color: $color-surface-1
     transition: all 0.3s ease-in-out
     gap: 8px
+    z-index: 2
 
     input
         background-color: transparent
@@ -19,6 +20,8 @@
         align-items: center
         font-size: 16px
         color: $color-on-surface
+        border-right: 1px solid #555858
+        padding: 8px 0
 
         &::placeholder
             color: $color-on-surface-variant
@@ -32,9 +35,6 @@
 .search-results
     display: flex
     flex-direction: column
-    position: absolute
-    top: 57px
-    left: 0
     width: 100%
     background-color: $color-surface-1
     height: 0

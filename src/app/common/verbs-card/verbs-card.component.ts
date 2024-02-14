@@ -14,7 +14,9 @@ export class VerbsCardComponent {
     showMore = false;
     showKei = 0;
 
-    onClickKeiTab(kei: number) {
+    onClickKeiTab(kei: number, event: Event) {
+        event.preventDefault();
+        event.stopPropagation();
         if (this.showKei === kei) {
             this.showKei = 0;
         } else {
@@ -22,7 +24,9 @@ export class VerbsCardComponent {
         }
     }
 
-    convertDivToSnapshot() {
+    convertDivToSnapshot(event: Event) {
+        event.preventDefault();
+        event.stopPropagation();
         if (this.verbCard && this.verbCard.nativeElement) {
             html2canvas(this.verbCard.nativeElement).then((canvas) => {
                 const imgData = canvas.toDataURL('image/png');

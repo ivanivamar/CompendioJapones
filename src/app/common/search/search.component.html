@@ -1,14 +1,38 @@
 <div class="searchbar" (click)="active = true" [class.active]="active">
-    <i class="material-symbols-rounded" [class.hidden]="active">
-        search
-    </i>
-    <button class="btn-icon btn-text" *ngIf="active" (click)="$event.preventDefault();$event.stopPropagation();active = false; clearSearch()">
-        <i class="material-symbols-rounded">arrow_back</i>
-    </button>
-    <input type="text" [(ngModel)]="search" (input)="onInputSearch()" placeholder="Busca en el compendio...">
-    <button class="btn-icon btn-text" *ngIf="search.length > 0" (click)="clearSearch()">
-        <i class="material-symbols-rounded">close</i>
-    </button>
+    <div class="flex align-items-center gap-2">
+        <i class="material-symbols-rounded" [class.hidden]="active">
+            search
+        </i>
+        <button class="btn-icon btn-text" *ngIf="active" (click)="$event.preventDefault();$event.stopPropagation();active = false; clearSearch()">
+            <i class="material-symbols-rounded">arrow_back</i>
+        </button>
+        <input type="text" [(ngModel)]="search" (input)="onInputSearch()" placeholder="Busca en el compendio...">
+        <button class="btn-icon btn-text" *ngIf="search.length > 0" (click)="clearSearch()">
+            <i class="material-symbols-rounded">close</i>
+        </button>
+        <div class="divider-vertical"></div>
+        <button class="btn-icon btn-text" (click)="$event.preventDefault();$event.stopPropagation();active = true;showFilters = !showFilters">
+            <i class="material-symbols-rounded">filter_list</i>
+        </button>
+    </div>
+
+    <div class="flex flex-column gap-3" *ngIf="showFilters">
+        <mat-checkbox class="ml-2" [(ngModel)]="filters.verbos">
+            <span class="body-lg ml-1">
+                Verbos
+            </span>
+        </mat-checkbox>
+        <mat-checkbox class="ml-2" [(ngModel)]="filters.adjetivos">
+            <span class="body-lg ml-1">
+                Adjetivos
+            </span>
+        </mat-checkbox>
+        <mat-checkbox class="ml-2" [(ngModel)]="filters.sustantivos">
+            <span class="body-lg ml-1">
+                Sustantivos
+            </span>
+        </mat-checkbox>
+    </div>
 </div>
 
 <div class="search-results" [class.active]="active">
@@ -16,10 +40,16 @@
         <i class="material-symbols-rounded">search_off</i>
         <p class="title-lg">No se encontraron resultados</p>
     </div>
-    <span class="title-lg p-3" *ngIf="hasVerbs">
+    <span class="title-lg px-3 py-2 color-secondary-container border-round-md w-min m-2" *ngIf="hasVerbs">
         Verbos
     </span>
     <ng-container *ngFor="let result of searchResults">
         <verbs-card [verb]="result.data" [fromSearch]="true" *ngIf="result.type === 'verbo'"></verbs-card>
+    </ng-container>
+    <span class="title-lg px-3 py-2 color-secondary-container border-round-md w-min m-2" *ngIf="hasSustantivos">
+        Sustantivos
+    </span>
+    <ng-container *ngFor="let result of searchResults">
+        <sustantivos-card [sustantivo]="result.data" [fromSearch]="true" *ngIf="result.type === 'sustantivo'"></sustantivos-card>
     </ng-container>
 </div>

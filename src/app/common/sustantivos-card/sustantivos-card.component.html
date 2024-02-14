@@ -1,47 +1,22 @@
-<div class="card m-3 gap-1" [class.search]="fromSearch" #verbCard (click)="showMore = !showMore">
+<div class="card m-3 gap-1" [class.search]="fromSearch" #sustantivoCard (click)="showMore = !showMore">
     <header class="flex flex-column">
         <span class="title-lg flex flex-1">
-            <ng-container [ngSwitch]="showKei">
-                <span *ngSwitchCase="0">
-                    {{ verb.kana }}
-                </span>
-                <span *ngSwitchCase="1">
-                    {{ verb.tekei }}
-                </span>
-                <span *ngSwitchCase="2">
-                    {{ verb.takei }}
-                </span>
-                <span *ngSwitchCase="3">
-                    {{ verb.nakei }}
-                </span>
-            </ng-container>
+            {{ sustantivo.kana }}
         </span>
 
         <span class="title-md font-italic text-right">
-            {{ verb.translation }}
+            {{ sustantivo.translation }}
         </span>
     </header>
 
     <div class="flex flex-column gap-2" style="transition: all 0.2s ease-in-out" [class.h-8rem]="showMore"
          [class.h-0]="!showMore" [class.opacity-0]="!showMore">
-        <div class="tab-container justify-content-end" *ngIf="showMore">
-            <div class="tab-filled" [class.active]="showKei == 1" (click)="onClickKeiTab(1, $event)">
-                てけい
-            </div>
-            <div class="tab-filled" [class.active]="showKei == 2" (click)="onClickKeiTab(2, $event)" aria-disabled="true">
-                たけい
-            </div>
-            <div class="tab-filled" [class.active]="showKei == 3" (click)="onClickKeiTab(3, $event)" aria-disabled="true">
-                なけい
-            </div>
-        </div>
-
         <div class="flex align-items-center justify-content-between">
             <span class="title-md">
                 Kanji:
             </span>
             <span class="title-lg">
-                {{ verb.kanji }}
+                {{ sustantivo.kanji }}
             </span>
         </div>
         <div class="flex align-items-center justify-content-between">
@@ -49,7 +24,15 @@
                 Romaji:
             </span>
             <span class="title-md">
-                {{ verb.romanji }}
+                {{ sustantivo.romanji }}
+            </span>
+        </div>
+        <div class="flex align-items-center justify-content-between">
+            <span class="title-md">
+                Tipo:
+            </span>
+            <span class="title-md">
+                {{ sustantivo.type }}
             </span>
         </div>
     </div>
