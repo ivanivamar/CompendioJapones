@@ -3,7 +3,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 const config: CapacitorConfig = {
   appId: 'com.compendiojapones.ivanov',
   appName: 'Compendio Japones',
-  webDir: 'dist',
+  webDir: 'dist/compendio-japones/browser',
   server: {
     androidScheme: 'https'
   }

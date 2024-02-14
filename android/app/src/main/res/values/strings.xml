@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Compendio Japones</string>
+    <string name="title_activity_main">Compendio Japones</string>
+    <string name="package_name">com.compendiojapones.ivanov</string>
+    <string name="custom_url_scheme">com.compendiojapones.ivanov</string>
+</resources>
