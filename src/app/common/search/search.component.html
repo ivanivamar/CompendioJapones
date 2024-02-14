@@ -1,0 +1,25 @@
+<div class="searchbar" (click)="active = true" [class.active]="active">
+    <i class="material-symbols-rounded" [class.hidden]="active">
+        search
+    </i>
+    <button class="btn-icon btn-text" *ngIf="active" (click)="$event.preventDefault();$event.stopPropagation();active = false; clearSearch()">
+        <i class="material-symbols-rounded">arrow_back</i>
+    </button>
+    <input type="text" [(ngModel)]="search" (input)="onInputSearch()" placeholder="Busca en el compendio...">
+    <button class="btn-icon btn-text" *ngIf="search.length > 0" (click)="clearSearch()">
+        <i class="material-symbols-rounded">close</i>
+    </button>
+</div>
+
+<div class="search-results" [class.active]="active">
+    <div class="flex align-items-center gap-3 p-3" *ngIf="search.length > 0 && searchResults.length === 0">
+        <i class="material-symbols-rounded">search_off</i>
+        <p class="title-lg">No se encontraron resultados</p>
+    </div>
+    <span class="title-lg p-3" *ngIf="hasVerbs">
+        Verbos
+    </span>
+    <ng-container *ngFor="let result of searchResults">
+        <verbs-card [verb]="result.data" [fromSearch]="true" *ngIf="result.type === 'verbo'"></verbs-card>
+    </ng-container>
+</div>

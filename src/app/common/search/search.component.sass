@@ -1,0 +1,47 @@
+@import '../../../styles'
+
+.searchbar
+    display: flex
+    align-items: center
+    margin: 16px
+    border-radius: 25px 25px 25px 25px
+    padding: 8px 16px
+    background-color: $color-surface-1
+    transition: all 0.3s ease-in-out
+    gap: 8px
+
+    input
+        background-color: transparent
+        border: none
+        outline: none
+        flex: 1
+        display: flex
+        align-items: center
+        font-size: 16px
+        color: $color-on-surface
+
+        &::placeholder
+            color: $color-on-surface-variant
+
+    &.active
+        background-color: $color-surface-2
+        margin: 0
+        border-radius: 0
+        border-bottom: 1px solid rgba($color-utility-outline, 0.5)
+
+.search-results
+    display: flex
+    flex-direction: column
+    position: absolute
+    top: 57px
+    left: 0
+    width: 100%
+    background-color: $color-surface-1
+    height: 0
+    overflow: hidden
+    overflow-y: auto
+    transition: all 0.1s ease-in-out
+
+    &.active
+        height: calc(100vh - 57px)
+        z-index: 1

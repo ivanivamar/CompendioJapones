@@ -1,0 +1,45 @@
+<div class="card m-3 gap-1" [class.search]="fromSearch" #verbCard>
+    <header class="flex flex-column">
+        <span class="title-lg flex flex-1">
+            {{ verb.kana }}
+        </span>
+
+        <span class="title-md font-italic text-right">
+            {{ verb.translation }}
+        </span>
+    </header>
+
+    <div class="flex flex-column gap-2" style="transition: all 0.2s ease-in-out" [class.h-4rem]="showMore"
+         [class.h-0]="!showMore" [class.opacity-0]="!showMore">
+        <div class="flex align-items-center justify-content-between">
+            <span class="title-md">
+                Kanji:
+            </span>
+            <span class="title-lg">
+                {{ verb.kanji }}
+            </span>
+        </div>
+        <div class="flex align-items-center justify-content-between">
+            <span class="title-md">
+                Romaji:
+            </span>
+            <span class="title-md">
+                {{ verb.romanji }}
+            </span>
+        </div>
+    </div>
+
+    <footer class="flex align-items-center justify-content-between">
+        <button class="btn-icon btn-text btn-sm" (click)="convertDivToSnapshot()">
+            <i class="material-symbols-rounded">
+                photo_camera
+            </i>
+        </button>
+        <button class="btn btn-text p-1" (click)="showMore = !showMore">
+            {{ showMore ? 'Ver menos' : 'Ver más' }}
+            <i class="material-symbols-rounded">
+                {{ showMore ? 'expand_less' : 'expand_more' }}
+            </i>
+        </button>
+    </footer>
+</div>

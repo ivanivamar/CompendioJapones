@@ -1,0 +1,296 @@
+[
+    {
+        "kana": "おきます",
+        "tekei": "おきて (I)",
+        "kanji": "起",
+        "romanji": "okimasu",
+        "translation": "Levantarse"
+    },
+    {
+        "kana": "ねます",
+        "tekei": "ねて (II)",
+        "kanji": "寝",
+        "romanji": "nemasu",
+        "translation": "Acostarse, ir a la cama, dormir"
+    },
+    {
+        "kana": "はたらきます",
+        "tekei": "はたらいて (I)",
+        "kanji": "働",
+        "romanji": "hatarakimasu",
+        "translation": "Trabajar"
+    },
+    {
+        "kana": "やすみます",
+        "tekei": "やすんで (I)",
+        "kanji": "休",
+        "romanji": "yasumimasu",
+        "translation": "Descansar, estar de vacaciones"
+    },
+    {
+        "kana": "べんきょうします",
+        "tekei": "べんきょうして (III)",
+        "kanji": "勉強",
+        "romanji": "benkyoushimasu",
+        "translation": "Estudiar"
+    },
+    {
+        "kana": "おわります",
+        "tekei": "おわって (I)",
+        "kanji": "終",
+        "romanji": "owarimasu",
+        "translation": "Terminar"
+    },
+    {
+        "kana": "いきます",
+        "tekei": "いって (I)",
+        "kanji": "行",
+        "romanji": "ikimasu",
+        "translation": "Ir"
+    },
+    {
+        "kana": "きます",
+        "tekei": "きて (I)",
+        "kanji": "来",
+        "romanji": "kimasu",
+        "translation": "Venir"
+    },
+    {
+        "kana": "かえります",
+        "tekei": "かえって (I)",
+        "kanji": "帰",
+        "romanji": "kaerimasu",
+        "translation": "Volver"
+    },
+    {
+        "kana": "たべます",
+        "tekei": "たべて (II)",
+        "kanji": "食",
+        "romanji": "tabemasu",
+        "translation": "Comer"
+    },
+    {
+        "kana": "のみます",
+        "tekei": "のんで (I)",
+        "kanji": "飲",
+        "romanji": "nomimasu",
+        "translation": "Beber"
+    },
+    {
+        "kana": "すいます",
+        "tekei": "すって (I)",
+        "kanji": "吸",
+        "romanji": "suimasu",
+        "translation": "Fumar"
+    },
+    {
+        "kana": "みます",
+        "tekei": "みて (II)",
+        "kanji": "見",
+        "romanji": "mimasu",
+        "translation": "Ver, mirar"
+    },
+    {
+        "kana": "ききます",
+        "tekei": "きいて (I)",
+        "kanji": "聞",
+        "romanji": "kikimasu",
+        "translation": "Escuchar, oír"
+    },
+    {
+        "kana": "よみます",
+        "tekei": "よんで (I)",
+        "kanji": "読",
+        "romanji": "yomimasu",
+        "translation": "Leer"
+    },
+    {
+        "kana": "かきます",
+        "tekei": "かいて (I)",
+        "kanji": "書",
+        "romanji": "kakimasu",
+        "translation": "Escribir"
+    },
+    {
+        "kana": "かいます",
+        "tekei": "かって (I)",
+        "kanji": "買",
+        "romanji": "kaimasu",
+        "translation": "Comprar"
+    },
+    {
+        "kana": "[しゃしん を] とります",
+        "tekei": "[しゃしん を] とって (I)",
+        "kanji": "[写真を] 撮",
+        "romanji": "[shashin o] torimasu",
+        "translation": "Sacar [una foto], hacer [una foto]"
+    },
+    {
+        "kana": "します",
+        "tekei": "して (III)",
+        "kanji": "",
+        "romanji": "shimasu",
+        "translation": "Hacer"
+    },
+    {
+        "kana": "あいます",
+        "tekei": "あって (I)",
+        "kanji": "会",
+        "romanji": "aimasu",
+        "translation": "Encontrarse con, quedar con"
+    },
+    {
+        "kana": "きります",
+        "tekei": "きって (I)",
+        "kanji": "切",
+        "romanji": "kirimasu",
+        "translation": "Cortar"
+    },
+    {
+        "kana": "おくります",
+        "tekei": "おくって (I)",
+        "kanji": "送",
+        "romanji": "okurimasu",
+        "translation": "Enviar"
+    },
+    {
+        "kana": "もらいます",
+        "tekei": "もらって (I)",
+        "kanji": "",
+        "romanji": "moraimasu",
+        "translation": "Recibir"
+    },
+    {
+        "kana": "あげます",
+        "tekei": "あげて (II)",
+        "kanji": "",
+        "romanji": "agemasu",
+        "translation": "Dar, entregar"
+    },
+    {
+        "kana": "もらいます",
+        "tekei": "もらって (I)",
+        "kanji": "",
+        "romanji": "moraimasu",
+        "translation": "Recibir"
+    },
+    {
+        "kana": "かします",
+        "tekei": "かして (I)",
+        "kanji": "貸",
+        "romanji": "kashimasu",
+        "translation": "Prestar"
+    },
+    {
+        "kana": "かります",
+        "tekei": "かって (I)",
+        "kanji": "借",
+        "romanji": "karimasu",
+        "translation": "Pedir prestado"
+    },
+    {
+        "kana": "おしえます",
+        "tekei": "おしえて (I)",
+        "kanji": "教",
+        "romanji": "oshieimasu",
+        "translation": "Enseñar"
+    },
+    {
+        "kana": "ならいます",
+        "tekei": "ならって (I)",
+        "kanji": "習",
+        "romanji": "naraimasu",
+        "translation": "Aprender"
+    },
+    {
+        "kana": "[でんわ を]かけます",
+        "tekei": "[でんわ を]かけて (I)",
+        "kanji": "[電話を]掛",
+        "romanji": "[denwa o] kakemasu",
+        "translation": "Llamar [por teléfono]"
+    },
+    {
+        "kana": "わかります",
+        "tekei": "わかって (I)",
+        "kanji": "分",
+        "romanji": "wakarimasu",
+        "translation": "Entender, comprender"
+    },
+    {
+        "kana": "あります",
+        "tekei": "あって (I)",
+        "kanji": "",
+        "romanji": "arimasu",
+        "translation": "Haber, existir, tener (cosas inanimadas)"
+    },
+    {
+        "kana": "います",
+        "tekei": "いて (I)",
+        "kanji": "",
+        "romanji": "imasu",
+        "translation": "Estar, haber, tener (seres animados)"
+    },
+    {
+        "kana": "かかります",
+        "tekei": "かかって (I)",
+        "kanji": "掛",
+        "romanji": "kakarimasu",
+        "translation": "Costar, llevar tiempo"
+    },
+    {
+        "kana": "あそびます",
+        "tekei": "あそんで (I)",
+        "kanji": "遊",
+        "romanji": "asobimasu",
+        "translation": "Jugar"
+    },
+    {
+        "kana": "およぎます",
+        "tekei": "およいで (I)",
+        "kanji": "泳",
+        "romanji": "oyogimasu",
+        "translation": "Nadar"
+    },
+    {
+        "kana": "むかえます",
+        "tekei": "むかえて (I)",
+        "kanji": "迎",
+        "romanji": "mukaemasu",
+        "translation": "Recoger, ir a buscar"
+    },
+    {
+        "kana": "つかれます",
+        "tekei": "つかれて (I)",
+        "kanji": "疲",
+        "romanji": "tsukaremasu",
+        "translation": "Cansarse"
+    },
+    {
+        "kana": "けっこんします",
+        "tekei": "けっこんして (III)",
+        "kanji": "結婚",
+        "romanji": "kekkonshimasu",
+        "translation": "Casarse"
+    },
+    {
+        "kana": "かいものします",
+        "tekei": "かいものして (III)",
+        "kanji": "買物",
+        "romanji": "kaimonoshimasu",
+        "translation": "Ir de compras"
+    },
+    {
+        "kana": "しょくじします",
+        "tekei": "しょくじして (III)",
+        "kanji": "食事",
+        "romanji": "shokujishimasu",
+        "translation": "Comer, tomar una comida"
+    },
+    {
+        "kana": "[こうえんを]さんぽします",
+        "tekei": "[こうえんを]さんぽして (III)",
+        "kanji": "[公園を]散歩",
+        "romanji": "[kouen o] sanposhimasu",
+        "translation": "Pasear [por el parque]"
+    }
+]
